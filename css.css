@@ -1,0 +1,111 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    
+}
+
+header {
+    background-color: #271102;
+    color: #d39969;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ff9a60;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-image: url(sadsa.jpg);
+    background-color: #f8d1ab;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+}
+
+.item {
+    width: 90%; /* Adjust width as needed */
+    margin: 10px; 
+    text-align: left; 
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #d39969;
+}
+
+
+.items {
+    width: 90%; /* Adjust width as needed */
+    margin: 10px; 
+    text-align: right; 
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #d17a32;
+}
+.item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.item h3 {
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.item p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+img {
+    height: 100px;
+    width: 200px;
+}
+.items h3 {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.items p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: left;
+}
